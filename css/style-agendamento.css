@@ -1,0 +1,68 @@
+#paineis-sobre {
+    margin-top: 20px;
+}
+
+html,
+body {
+    height: 100%;
+    background-color: black;
+}
+.navbar-inverse {
+    background-color: transparent;
+    border-color: transparent;
+}
+.navbar-inverse .navbar-brand {
+    color: #fff;
+    font-size: 30px;
+    padding: 40px 15px;
+    font-weight: 900;
+}
+
+.navbar-inverse .navbar-brand:hover {
+    color: #e834ff;
+}
+
+#h2-titulo
+{
+    color: pink;
+}
+
+.nav.navbar-nav.navbar-right {
+    margin: 25px 0;
+}
+.navbar-inverse .navbar-nav>li>a {
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover {
+    color: #e834ff;
+}
+.navbar-default {
+    background-color: white;
+}
+
+#collapse-navbar li:hover{
+    background-color: #ff45c9;
+}
+
+#agendamento-campo
+{
+    background-color: white;
+}
+
+footer {
+    background-color: #333;
+    color: #FFF;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+footer address:last-child {
+    margin-bottom: 0;
+}
+
+
+
+
+

@@ -1,0 +1,115 @@
+#paineis-sobre {
+    margin-top: 20px;
+}
+
+html,
+body {
+    height: 100%;
+    background-color: black;
+}
+.navbar-inverse {
+    background-color: transparent;
+    border-color: transparent;
+}
+.navbar-inverse .navbar-brand {
+    color: #fff;
+    font-size: 30px;
+    padding: 40px 15px;
+    font-weight: 900;
+}
+
+.navbar-inverse .navbar-brand:hover {
+    color: #e834ff;
+}
+
+#h2-titulo
+{
+    color: pink;
+}
+
+.nav.navbar-nav.navbar-right {
+    margin: 25px 0;
+}
+.navbar-inverse .navbar-nav>li>a {
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover {
+    color: #e834ff;
+}
+.navbar-default {
+    background-color: white;
+}
+
+#collapse-navbar li:hover{
+    background-color: #ff45c9;
+}
+
+#inicio h3:hover{
+    cursor:pointer;
+}
+
+header {
+    background-image: url(../img/castelo.jpg);
+    background-size: cover;
+    background-position: top center;
+    height: 100%;
+}
+
+#h2-titulo {
+    color: pink;
+    padding-left: 20px;
+}
+
+header h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+footer {
+    background-color: #333;
+    color: #FFF;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+footer address:last-child {
+    margin-bottom: 0;
+}
+
+@media(min-width: 768px) {
+    #paineis-sobre {
+        margin-top: 0;
+    }
+}
+
+@media(min-width: 992px) {
+    .topCasaFina-banner {
+        left: 0;
+        transform: translate(0, -80%);
+        width: 50%;
+    }
+
+    .topCasaFina-bannerWrapper {
+        position: relative;
+        height: 100%;
+    }
+}
+
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:50%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
