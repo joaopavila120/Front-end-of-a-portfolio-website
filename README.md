@@ -1,2 +1,2 @@
 # Front-end-of-a-portfolio-website
-This is a front end creation for a photo website. I created using bootstrap.
+This is a front end creation for a photo website. I created to help a friend of mine and to study bootstrap.
